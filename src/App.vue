@@ -19,7 +19,7 @@ export default {
 #app {
   font-family: 'Avenir', 'Helvetica', 'Arial', sans-serif;
   text-align: center;
-  color: #f1e7e7;
+  color: #f1a7cb;
   margin-top: 60px;
   background: linear-gradient(135deg, #0f1010, #701332); 
   min-height: 100vh; 
@@ -29,9 +29,9 @@ input, select {
   font-size: 22px; 
   margin: 15px; 
   padding: 15px; 
-  border-radius: 8px; 
-  border: none; 
-  box-shadow: 0px 4px 6px rgba(91, 7, 7, 0.1); 
+  border-radius: 5px; 
+  border: 1px solid #101010; 
+  box-shadow: 0px 4px 4px rgba(91, 7, 7, 0.1); 
   background-color: rgba(241, 241, 242, 0.9); 
 }
 
@@ -40,7 +40,7 @@ select {
   margin: 10px;
   padding: 10px;
   border-radius: 5px;
-  border: 1px solid #ccc;
+  border: 1px solid #101010;
   cursor: pointer;
 }
 
@@ -56,7 +56,7 @@ p {
 p:hover {
   transform: scale(1.3);
   transition: transform 0.3s ease-in-out;
-  background-color: rgba(235, 29, 29, 0.7); 
+  background-color: rgba(232, 159, 236, 0.7); 
 }
 
 button {
@@ -71,10 +71,6 @@ button {
   transition: background-color 0.3s, box-shadow 0.3s;
 }
 
-button:hover {
-  background-color: #44bd32;
-  box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.3);
-}
 
 h1 {
   color: #34495e;
@@ -82,12 +78,5 @@ h1 {
   margin-bottom: 10px;
 }
 
-h3 {
-  color: #0a585e8a;
-  font-size: 20px;
-  margin-bottom: 20px;
-  text-align: left;
-  padding-left: 5%;
-}
 
 </style>
